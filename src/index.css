@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .img{
+        @apply w-[2rem] aspect-square; 
+    }
+
+    .btn{
+        @apply font-bold w-[11.6rem] lg:w-[12rem] h-[3.5rem] lg:h-[3.4rem] rounded-lg bg-[#2CBCA5] cursor-pointer text-nowrap shadow-sm shadow-[#2CBCA5];
+    }
+
+    .input{
+        @apply rounded-2xl w-[90%] lg:w-full max-w-[30rem] h-[3.3rem] outline-none text-black pl-3;
+    }
+
+    .search{
+        @apply absolute h-full top-0 right-0 rounded-2xl text-white bg-[#2CBCA5] w-[11rem] sm:w-[10rem] px-[3rem] py-[1rem] overflow-clip;
+    }
+
+
+
+
+
+
+
+
+
+    .left-green::before{
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 20px;
+        border-radius: 2px;
+        background-color: #2CBCA5;
+        left: -1rem;
+
+    }
+
+    .star::before{
+        position: absolute;
+        /* content: url('./sparkle.png'); */
+        background-size: cover;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        background-color: red;
+    }
+}
