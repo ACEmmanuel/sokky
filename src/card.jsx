@@ -6,11 +6,11 @@ const Card = () => {
         <div>
         {
             cards.map((e) => {
-                const {id, name, about, img} = e;
+                const {id, name, about, img, style} = e;
                 
                 return (
                     <>
-                    <div className='w-full bg-gradient-to-b from-[#282930] rounded-xl flex flex-col justify-center items-center lg:flex-row lg:items-center py-8 px-8 gap-4 lg:gap-x-8 mt-10 max-w-[35rem] mx-auto' key={id}>
+                    <div className='w-full rounded-xl flex flex-col justify-center items-center border border-white/20 bg-white/10 lg:flex-row lg:items-center py-8 px-8 gap-4 lg:gap-x-8 mt-10 max-w-[35rem] mx-auto' style={{style}} key={id}>
 
                             <img src={img} className='w-[4.5rem] lg:w-[3rem] '/>
 

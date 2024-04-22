@@ -27,9 +27,9 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='w-[100%] border-t mx-auto border-slate-700 py-8'>
-            <div className='flex flex-row flex-wrap gap-7 mx-auto justify-between text-[13px] '>
-                <div className='flex flex-row flex-wrap gap-7 lg:order-2 mx-auto md:mx-0'>
+        <div className='w-[100%] border-t mx-auto border-slate-700 py-6'>
+            <div className='flex flex-row flex-wrap gap-7 mx-auto justify-between text-[13px] px-3'>
+                <div className='flex flex-row flex-wrap gap-7 lg:order-2 mx-auto md:mx-0 text-center'>
                     <a href="" className='text-nowrap'>Home</a>
                     <a href="" className='text-nowrap'>About Us</a>
                     <a href="" className='text-nowrap'>Our Team</a>
@@ -37,7 +37,7 @@ const Footer = () => {
                     <a href="" className='text-nowrap'>Blog</a>
                     <a href="" className='text-nowrap'>Contact Us</a>
                 </div>
-                <div className='mx-auto md:mx-0 lg:order-1'>
+                <div className='mx-auto md:mx-0 lg:order-1 border-t md:border-none md:pt-0 border-slate-700 pt-4'>
                     <p>Copyright @ 2023 Sokka. All rights reserved.</p>
                 </div>
             </div>

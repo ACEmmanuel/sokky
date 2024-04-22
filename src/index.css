@@ -10,13 +10,23 @@
     .btn{
         @apply font-bold w-[11.6rem] lg:w-[12rem] h-[3.5rem] lg:h-[3.4rem] rounded-lg bg-[#2CBCA5] cursor-pointer text-nowrap shadow-sm shadow-[#2CBCA5];
     }
+    
+    .bttn{
+        @apply w-[8rem] h-[2.5rem] rounded-full cursor-pointer text-nowrap text-center border-2 border-white/70 grid place-content-center;
+    }
+
+    /* w-[11.6rem] lg:w-[12rem] h-[3.5rem] lg:h-[3.4rem] */
 
     .input{
-        @apply rounded-2xl w-[90%] lg:w-full max-w-[30rem] h-[3.3rem] outline-none text-black pl-3;
+        @apply rounded-full w-[90%] lg:w-full max-w-[30rem] h-[3.3rem] outline-none text-black pl-3;
     }
 
     .search{
-        @apply absolute h-full top-0 right-0 rounded-2xl text-white bg-[#2CBCA5] w-[11rem] sm:w-[10rem] px-[3rem] py-[1rem] overflow-clip;
+        @apply absolute h-full top-0 right-0 rounded-full text-white bg-[#2CBCA5] w-[11rem] sm:w-[10rem] px-[3rem] py-[1rem] overflow-clip;
+    }
+
+    .hero-img{
+        @apply absolute h-[20rem] right-0 top-[20rem] -z-10 opacity-50;
     }
 
 

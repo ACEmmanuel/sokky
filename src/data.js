@@ -6,7 +6,7 @@ export const data = [
 ]
 
 export const cards = [
-    { id: 1, name: "Best prices", about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img: "./star.png"},
+    { id: 1, name: "Best prices", about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img: "./star.png", style: "bg-gradient-to-b from-[#282930]"},
     { id: 2, name: "Secured & insured", about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img: "./lock.png"},
     { id: 3, name: "No trading fees", about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img: "./transfer.png"},
 ]

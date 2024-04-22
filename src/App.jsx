@@ -1,16 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Base from './base'
-import Review from './review'
-import Label from './label'
-import Section1 from './section1'
 import FirstSection from './firstSection'
 import Testimonial from './testimonial'
 import Start from './start'
 import Earn from './earn'
 import Benefits from './benefits'
 import Footer from './footer'
+import Hero from './Hero'
+import Header from './Header'
+import Partner from './Partner'
 
 
 // import './App.css'
@@ -19,6 +18,9 @@ function App() {
 
   return (
     <>
+      <Header />
+      <Hero />
+      {/* <Partner /> */}
       <FirstSection />
       <Earn />
       <Benefits />

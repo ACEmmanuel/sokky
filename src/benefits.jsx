@@ -8,9 +8,9 @@ const Benefits = () => {
         <div className="text-white/90 mt-20 container mx-auto font-inter">
           <div className='grid grid-cols-1 lg:grid-cols-2 justify-center'>
             <div className='text-center lg:text-left mx-auto max-w-xl px-4 sm:px-8 lg:px-18'>
-                <p className='text-[#2CBCA5] text-[1rem] font-[700] tracking-[1px]'>BENEFITS</p>
-                <h1 className='text-4xl sm:text-5xl font-[600] mt-2'>Make crypto work harder for you</h1>
-                <p className='mt-6 text-[16px] md:text-[20px] text-balance text-[#B3B4B7]'>Choose from 150+ cryptocurrencies</p>
+                <p className='text-[#2CBCA5] text-[1rem] font-[700] tracking-[1px] font-inter'>BENEFITS</p>
+                <h1 className='text-4xl sm:text-4xl font-[600] mt-2 font-rale'>Make crypto work harder for you</h1>
+                <p className='mt-6 text-[16px] md:text-[20px] text-balance text-gray-400'>Choose from 150+ cryptocurrencies</p>
 
                 <div className='mt-6 '>
                 <img src='./stat.png'/>
