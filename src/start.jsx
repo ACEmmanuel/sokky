@@ -10,11 +10,11 @@ const Start = () => {
                   <h1 className='font-[700] font-rale'>
                     Let's start your crypto <span className='text-[#2CBCA5]'>investment</span> now
                   </h1>
-                  <p className='text-[14px] md:text-[16px] font-medium mt-5 text-gray-400'>Choose from 150+ cryptocurrencies</p>
+                  <p className='text-[16px] md:text-[18px] font-medium mt-2 md:mt-0 text-gray-400'>Choose from 150+ cryptocurrencies</p>
               </div>
 
 
-            <button className='btn mx-auto mt-5 lg:mx-0 lg:ml-auto font-rale'>Start now</button>
+            <button className='btn mx-auto mt-6 lg:mx-0 lg:ml-auto font-rale'>Start now</button>
             </div>
         </div>
       {/* </div> */}

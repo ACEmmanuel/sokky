@@ -15,8 +15,8 @@ const Card = () => {
                             <img src={img} className='w-[4.5rem] lg:w-[3rem] '/>
 
                             <div className='space-y-4'>
-                                <p className='text-[#2CBCA5] text-[20px] lg:text-[25px] font-medium'>{name}</p>
-                                <p>{about}</p>
+                                <p className='text-[#2CBCA5] text-[29px] lg:text-[25px] font-medium font-rale'>{name}</p>
+                                <p className='font-DM text-[16px]'>{about}</p>
                             </div>
                     </div>
                     </>
