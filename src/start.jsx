@@ -16,7 +16,7 @@ const Start = () => {
 
               <button className='btn mx-auto mt-6 lg:mx-0 lg:ml-auto font-rale'>Start now</button>
 
-              <img src='./sparkle.png' className='absolute size-[2rem] left-5 top-5'/>
+              <img src='./sparkle.png' className='absolute size-[1rem] left-5 top-5'/>
             </div>
         </div>
       {/* </div> */}
