@@ -15,8 +15,19 @@ const Hero = () => {
                     <img src='discount.png' className='w-6'/>
                     GET <span className='text-[#797A80]'>25%</span> OF NOW
                 </p>
-                <h1 className='text-5xl lg:text-7xl font-[500] mt-2 font-rale'>Make your life easier with crypto</h1>
+
+
+                <h1 className='text-5xl lg:text-7xl font-[500] mt-2 font-rale relative'>Make your life easier with crypto 
+                  <img src='./sparkle.png' className='absolute size-[40px] right-0 md:top-[6rem] md:right-[4rem]'/> 
+                </h1>
+
+
+
                 <button className='btn mx-auto mt-16 lg:mx-0 lg:ml-auto text-[1.1rem] font-rale'>Start now</button>
+
+
+
+
 
                 <div className='mt-16 flex flex-col lg:flex-row gap-y-4 gap-x-6 mx-auto items-center'>
                   <div className='flex flex-row gap-3 items-center justify-center'>

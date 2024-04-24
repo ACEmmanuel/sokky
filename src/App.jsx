@@ -20,7 +20,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      {/* <Partner /> */}
+      <Partner />
       <FirstSection />
       <Earn />
       <Benefits />

@@ -7,9 +7,13 @@ const Earn = () => {
           <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center'>
             <div className='text-center lg:text-left mx-auto max-w-xl px-4 sm:px-8 lg:px-18'>
                 <p className='font-[700] text-[#2CBCA5] text-[15px] tracking-[1px] font-inter'>EARN CRYPTO</p>
-                <h1 className='text-[2rem] sm:text-4xl font-[600] mt-5 font-rale'>Deposit crypto and earn interest</h1>
-                {/* text-4xl sm:text-4xl font-[600] mt-2 font-rale px-2 */}
-                <p className='mt-1 text-[16px] md:text-[18px] text-balance text-gray-400 font-DM'>Choose from 150+ cryptocurrencies</p>
+                <h1 className='text-[2rem] sm:text-4xl font-[600] mt-4 font-rale relative'>Deposit crypto and earn interest
+                
+                <img src='./sparkle.png' className='absolute size-[1.4rem] right-5 bottom-0'/>
+                
+                </h1>
+
+                <p className='text-[16px] md:text-[18px] text-balance text-gray-400 font-DM mt-3'>Choose from 150+ cryptocurrencies</p>
 
                 <div className='mt-6 flex flex-col lg:flex-row gap-x-14 gap-y-4'>
                   <div className='-space-y-1'>

@@ -3,20 +3,20 @@ import React from 'react'
 const Partner = () => {
   return (
     <>
-        <div className='container mx-auto border-t border-white/20 px-4 py-5 flex flex-row flex-nowrap h-[3rem] aspect-video gap-10 overflow-hidden'>
-            <img src='logo1.png' className='h-[3rem]
-aspect-video '/>
-            <img src='logo2.png' className='h-[3rem]
-aspect-video '/>
-            <img src='logo3.png' className='h-[3rem]
-aspect-video '/>
-            <img src='logo4.png' className='h-[3rem]
-aspect-video '/>
-            <img src='logo5.png' className='h-[3rem]
-aspect-video '/>
+        <div className='container mx-auto border-t border-white/20 mt-20 py-5 sm:px-8 lg:px-18'>
+            <div className='flex flex-row justify-between overflow-hidden'>
+              <img src='logo1.png' className=' object-contain h-7'/>
+              <img src='logo2.png' className='object-contain h-7'/>
+              <img src='logo3.png' className='object-contain h-7'/>
+              <img src='logo4.png' className='object-contain h-7'/>
+              <img src='logo5.png' className='object-contain h-7'/>
+            </div>
         </div>
     </>
   )
 }
 
-export default Partner
+export default Partner;
+
+
+// border-t border-white/20

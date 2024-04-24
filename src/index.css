@@ -12,7 +12,7 @@
     }
     
     .bttn{
-        @apply w-[8rem] h-[2.5rem] rounded-full cursor-pointer text-nowrap text-center border-2 border-white/70 grid place-content-center;
+        @apply w-[8rem] h-[2.5rem] rounded-full cursor-pointer text-nowrap text-center border-2 border-white/70 grid place-content-center font-rale hover:border-[#2CBCA5];
     }
 
     /* w-[11.6rem] lg:w-[12rem] h-[3.5rem] lg:h-[3.4rem] */
@@ -29,6 +29,13 @@
         @apply absolute h-[20rem] right-0 top-[20rem] -z-10 opacity-50;
     }
 
+    .head{
+        @apply hover:text-[#2CBCA5] cursor-pointer hover:font-bold;
+    }
+
+    .modal{
+        @apply container mx-auto absolute overflow-hidden w-full left-0 top-0 h-[100vh] bg-[#17171f] text-lg grid place-content-center;
+    }
 
 
 
@@ -48,13 +55,4 @@
 
     }
 
-    .star::before{
-        position: absolute;
-        /* content: url('./sparkle.png'); */
-        background-size: cover;
-        background-position: center;
-        width: 40px;
-        height: 40px;
-        background-color: red;
-    }
 }
