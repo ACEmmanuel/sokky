@@ -3,23 +3,18 @@ import { useState } from 'react';
 
 const Header = () => {
 
-    const [active, setActive] = useState(false);
-      
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-        setActive(!active)
-    }
+        setIsMenuOpen(!isMenuOpen);
+        document.body.style.overflow = isMenuOpen ? 'auto' : 'hidden'; // Prevent scrolling when menu is open
+    };
 
-    // if (active){
-    //     document.body.classList.add('modal-active');
-    //   }else{
-    //     document.body.classList.remove('modal-active');
-    //   }
-  
-    //   const closeModal = (event) => {
-    //     event.stopPropagation();
-    //     toggleMenu();
-    //   };
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+        document.body.style.overflow = 'auto'; // Re-enable scrolling when menu is closed
+    };
+
   
       
       
@@ -38,24 +33,23 @@ const Header = () => {
                                 <li className="head"><a href="#work">About Us</a></li>
                                 <li className="head"><a href="#contact">Contact Us</a></li>
                                 <li className="head"><a href="#contact">Blog</a></li>
-                                <li className="head bttn"><a href="#contact">Buy Now</a></li>
                             </ul>
                             <div className="">
-                                {active ? <span className="lg:hidden" onClick={toggleMenu}> <i class='bx bx-x text-2xl'></i> </span> :  <span className="lg:hidden" onClick={toggleMenu}> <i class='bx bx-menu text-2xl' >=</i> </span>}
+                                {isMenuOpen ? <span className="lg:hidden" onClick={toggleMenu}> <i class='bx bx-x-circle text-[2rem]'></i> </span> :  <span className="lg:hidden" onClick={toggleMenu}> <i class='bx bx-menu-alt-right text-[2rem]'></i> </span>}
                                 
-                                {active && (
-                                    <div className="modal text-center font-DM">
-                                        <div><i class='bx bx-x-circle text-[4rem] absolute top-2 right-2' onClick={toggleMenu}>x</i></div>
+                                {isMenuOpen && (
+                                    <div className="modal text-center font-DM font-medium">
+                                        <div><i class='bx bx-x-circle text-[2.4rem] absolute top-[2.4rem] right-[2.4rem]' onClick={toggleMenu}></i></div>
                                         <br />
-                                        <div onClick={toggleMenu}><a href="#home" className='head'>NFT</a></div>
+                                        <div onClick={closeMenu}><a href="#home" className='head'>NFT</a></div>
                                         <br />
-                                        <div onClick={toggleMenu}><a href="#home" className='head'>Crypto</a></div>
+                                        <div onClick={closeMenu}><a href="#home" className='head'>Crypto</a></div>
                                         <br />
-                                        <div onClick={toggleMenu}><a href="#contact" className='head'>About Us</a></div>
+                                        <div onClick={closeMenu}><a href="#contact" className='head'>About Us</a></div>
                                         <br />
-                                        <div onClick={toggleMenu}><a href="#contact" className='head'>Blog</a></div>
+                                        <div onClick={closeMenu}><a href="#contact" className='head'>Blog</a></div>
                                         <br />
-                                        <div onClick={toggleMenu}><a href="#contact" className='head bttn'>Buy Now</a></div>
+                                        <div onClick={closeMenu}><a href="#contact" className='bttn'>Buy Now</a></div>
                                         <br />
                                     </div>
                                 )}
