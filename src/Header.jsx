@@ -24,7 +24,7 @@ const Header = () => {
                 <div className="container mx-auto relative ">
                     <div className="flex flex-wrap justify-between items-center py-8 px-8 z-10 backdrop-blur">
                         
-                            <h2 className="text-xl md:text-2xl"><span className="font-bold ">ACE</span>mmanuel</h2>
+                            <h2 className="text-xl md:text-2xl font-bold">SOKKY</h2>
                         
                         <nav className="">
                             <ul className="hidden gap-10 lg:flex text-md items-center">

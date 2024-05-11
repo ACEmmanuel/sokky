@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='container mx-auto text-white/90 mt-7 font-DM'>
         <div className='mx-auto flex flex-col lg:flex-row items-start flex-nowrap gap-8 px-5 py-10 font-medium text-[15px]'>
             <div className='space-y-6 lg:w-[33%]'>
-                <h1 className='font-bold text-[2rem]'>SOKA</h1>
+                <h1 className='font-bold text-[2rem]'>SOKKY</h1>
                 <p className='max-w-[40rem]'>Reinventing the way of creating websites, we aim to create the most master-paced WordPress theme available on the market.</p>
             </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                     <a href="" className='text-nowrap'>Contact Us</a>
                 </div>
                 <div className='mx-auto md:mx-0 lg:order-1 border-t md:border-none md:pt-0 border-slate-700 pt-4'>
-                    <p>Copyright @ 2023 Sokka. All rights reserved.</p>
+                    <p>Copyright @ 2023 Sokky. All rights reserved.</p>
                 </div>
             </div>
         </div>
